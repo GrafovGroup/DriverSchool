@@ -1,0 +1,36 @@
+{
+  "name": "driverschool-ca",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "retention": "node --env-file-if-exists=.env.local --experimental-strip-types scripts/retention.ts",
+    "directory:validate": "node --experimental-strip-types scripts/validate-directory.ts",
+    "check:env": "node --env-file-if-exists=.env.local scripts/check-env.mjs",
+    "inbox": "node --env-file-if-exists=.env.local --experimental-strip-types scripts/inbox.ts"
+  },
+  "dependencies": {
+    "next": "16.4.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.9.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "16.4.2"
+  },
+  "type": "module"
+}
