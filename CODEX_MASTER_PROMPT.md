@@ -32,6 +32,15 @@ Build typed province/city data and scalable location templates. Publish indexabl
 Homepage; Driving Lessons; Road Test Preparation; Beginner Driver Education; Defensive Driving; Truck/Commercial Training; Motorcycle Training; Corporate/Fleet Training; Find a School; Locations; About; Contact; Privacy; Terms. School directory may display ONLY sourced, verifiable factual listings with attribution and verification date. No invented schools or fabricated reviews. If no verified data is available, provide useful search/discovery UI and contact intake instead.
 
 ## SEO, trust and security
+
+**Editorial standard · Google E-E-A-T**
+
+Start with the decision the reader came to make. Where first-hand experience helps, use work the publisher can document and share. Identify the real author or reviewer where readers would expect it. Explain the method when it affects interpretation. Support consequential claims with the relevant original source and claim outside recognition only when readers can verify it.
+
+Use provincial licensing authorities for eligibility and course requirements. Verify school approval and instructor credentials separately. Attribute a lesson experience to the person who had it, and distinguish that observation from an official rule.
+
+During content review, trace a representative claim to its evidence. Qualify or omit unsupported statements in visible copy, translations and structured data. [Google Search Central](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) · [Universal master prompt](https://github.com/GrafovGroup/MasterPrompt/blob/main/MASTER_PROMPT.md).
+
 Unique metadata, OpenGraph, robots, XML sitemap, hreflang, canonical, structured Service/Organization/BreadcrumbList as appropriate. Never use LocalBusiness schema for nonexistent offices. Honest partner disclosures and privacy handling; consent-aware analytics, event tracking for calls and inquiries; Search Console instructions. Secure input handling, environment validation, no sensitive data in client logs, sensible retention controls and CASL/PIPEDA-aware design. Avoid asserting legal compliance without review.
 
 ## Phased execution
